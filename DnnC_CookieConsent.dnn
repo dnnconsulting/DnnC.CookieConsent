@@ -1,0 +1,60 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="DnnC_CookieConsent" type="SkinObject" version="02.00.00">
+      <friendlyName>DnnC_CookieConsent SkinObject</friendlyName>
+      <description>DnnC DnnC CookieConsent Skin object for Dnn</description>
+      <iconFile/>
+      <owner>
+        <name>G Barlow</name>
+        <organization>DnnConsulting Site Solutions</organization>
+        <url>http://www.dnnconsulting.nl</url>
+        <email>modules@dnnconsulting.nl</email>
+      </owner>
+      <azureCompatible>true</azureCompatible>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">06.02.00</dependency>
+      </dependencies>      
+      <components>
+        <component type="SkinObject">
+          <moduleControl>
+            <controlKey>COOKIECONSENT</controlKey>
+            <controlSrc>DesktopModules/DnnC_CookieConsent/CookieConsent.ascx</controlSrc>
+            <supportsPartialRendering>False</supportsPartialRendering>
+          </moduleControl>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules/DnnC_CookieConsent</basePath>
+            <file>
+              <name>CookieConsent.ascx</name>
+            </file>
+            <file>
+              <name>license.txt</name>
+            </file>
+            <file>
+              <name>releasenotes.txt</name>
+            </file>
+          </files>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/DnnC_CookieConsent</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>DnnC.Modules.CookieConsent.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
