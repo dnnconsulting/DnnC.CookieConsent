@@ -5,6 +5,12 @@ DnnC CookieConsent is a SkinObject and is created using the “Cookie Consent”
 
 Documentation for the Siktide script can be found here : https://silktide.com/tools/cookie-consent/docs/
 
+Demo of the SkinObject in action:
+
+http://www.cmsxpress.nl
+
+http://www.interschools.nl
+
 ## What is the DnnC CookieConsent SkinObject for?
 
 The EU Cookie Law says that websites must get "informed consent" from users before they record any detailed information in the cookies they store on visitor’s computer. On 26th May 2011, new laws came into force that affect most web sites. If cookies are used in a site, the Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 2011 (UK Regulations) provide that certain information must be given to that site's visitors and the user must give his or her consent to the placing of the cookies.
@@ -44,20 +50,28 @@ The SkinObject is used in your skin and is used the same way as other SkinObject
 
 In your skin file(s) add the registration to the top of your skin as below:
 
+```html
 <%@ Register TagPrefix="dnn" TagName="COOKIECONSENT" Src="~/DesktopModules/DnnC_CookieConsent/CookieConsent.ascx" %>
+```
 
 Next add the following to you skin:
 
+```html
 <dnn:CookieConsent runat="server" />
+```
 
 To link the CookieConsent bar to your cookie policy page, use the 'CookiePolicyLink' setting:
 
+```html
 <dnn:CookieConsent runat="server" CookiePolicyLink="http://www.mysite.com/cookiepolicy.aspx" />
+```
 (change www.mysite.com and page to corrispond to your website)
 
 To change the look and position of the CookieConsent bar, use the 'CookieTheme' setting:
 
+```html
 <dnn:CookieConsent runat="server" CookieTheme="light-bottom" CookiePolicyLink="http://www.mysite.com/cookiepolicy.aspx" />
+```
 
 The builtin themes are as follows:
 - dark-top (default)
@@ -66,3 +80,9 @@ The builtin themes are as follows:
 - light-floating
 - light-top
 - light-bottom
+
+When you choose "light-floating" or "dark-floating" a cookieconsent logo appears, if you want to hide this just add the following piece of css to your style sheet:
+
+```css
+a.cc_logo { visibility:hidden; }
+```
