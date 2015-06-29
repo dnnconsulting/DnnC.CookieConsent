@@ -1,18 +1,23 @@
-﻿<h3>DnnC_CookieConsent</h3>
+﻿<h3>DnnC_CookieConsent2</h3>
 <p class="Contributor">
-	Author : G M Barlow <br />
-	Company : DnnConsulting.nl<br/>
-	Email : <a href="mailto:modules@dnnconsulting.nl">modules@dnnconsulting.nl</a><br />
-	Website : <a href=http://www.dnnconsulting.nl>http://www.dnnconsulting.nl</a><br />
+	Christoc.com <br />
+	<a href="mailto:modules@christoc.com">modules@christoc.com</a><br />
+	<a href=http://www.dotnetnuke.com>http://www.dotnetnuke.com</a><br />
 </p>
 <hr/>
 <div class="License">
-	<h3>About the DnnC CookieConsent v2</h3>
+	<h3>About the DnnC_CookieConsent2</h3>
 	<p class="Owner">
-		<b>Version 2</b><br /><br />
+		<b>Version CHANGEME</b><br /><br />
 	</p>
-	<p>
-		DnnC CookieConsent is a Dnn SkinObject module and is created using the “Cookie Consent” plugin 
-		from silkTide (version 2.0) and adapted to a SkinObject for DotNetNuke®.
-	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
 </div>

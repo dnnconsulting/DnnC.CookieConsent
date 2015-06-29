@@ -1,4 +1,4 @@
-﻿# DnnC CookieConsent
+﻿﻿# DnnC CookieConsent
 
 ## What is DnnC CookieConsent
 DnnC CookieConsent is a SkinObject and is created using the “Cookie Consent” plugin from silkTide and adapted to a skinObject for Dnn CMS Platform. 

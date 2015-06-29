@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\DnnTest\bin\DnnC.Modules.CookieConsent2.dll
+C:\inetpub\wwwroot\DnnTest\bin\DnnC.Modules.CookieConsent2.pdb
+C:\inetpub\wwwroot\DnnTest\bin\DnnC.Modules.CookieConsent2.xml
+C:\inetpub\wwwroot\DnnTest\DesktopModules\DnnC_CookieConsent2\obj\Debug\DnnC.Modules.CookieConsent2.dll
+C:\inetpub\wwwroot\DnnTest\DesktopModules\DnnC_CookieConsent2\obj\Debug\DnnC.Modules.CookieConsent2.xml
+C:\inetpub\wwwroot\DnnTest\DesktopModules\DnnC_CookieConsent2\obj\Debug\DnnC.Modules.CookieConsent2.pdb
